@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #e0e7ff, #f0f4ff);
+  color: #333;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.hero-header {
+  background: linear-gradient(to right, #2563eb, #1e3a8a);
+  padding-top: 160px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.hero-header .hero-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #2563eb;
+  margin-top: 0.5rem;
+  border-radius: 2px;
+}
+/* Featured Projects Card Styling */
+.project-card {
+  border: 1px solid #2563eb;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f8fafc;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(37, 99, 235, 0.3);
+}
+
+/* Icon styling */
+.project-icon i {
+  font-size: 2.5rem;
+  color: #2563eb;
+}
+
+
+/* Advanced Skill Card Styling */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid #2563eb;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h5 {
+  margin-top: 0.5rem;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.skill-card i {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.75rem;
+}
+
+.skill-card ul li {
+  list-style: disc;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* Projects, Footer, Navbar, etc. remain same as before */
