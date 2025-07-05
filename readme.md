@@ -67,11 +67,10 @@ A front-end layout for a product listing and checkout page.
 
 ---
 
-## 🖼 Screenshots
+## 🖼️ Screenshot
 
-| Home Section | Skills Section |
-|--------------|----------------|
-| ![Home](https://source.unsplash.com/600x300/?developer,web) | ![Skills](https://source.unsplash.com/600x300/?skills,design) |
+![Portfolio Screenshot](MY PORTFOLIO SCREENSHOT.png)
+
 
 ---
 
